@@ -19,6 +19,12 @@ view: KLN_Demo_Cube {
         sql: ${TABLE}.`Product_Style`;;
     }
 
+    dimension: Weight_Hierarchy_Weight_Level {
+        label: "Weight Level"
+        type: string
+        sql: ${TABLE}.`Weight Level`;;
+    }
+
     dimension: Customer_Gender {
         label: "Gender"
         group_label: "Customer Attributes"
